@@ -6,9 +6,8 @@ public class Del {
 	{
 		return a-b;
 	}
-	public void sum(int a, int b )
+	public int del(int a, int b )
 	{
-		result=(result*a)-b;
-        System.out.print(result);
+		return a/b;
 	}
 }

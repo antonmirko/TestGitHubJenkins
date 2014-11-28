@@ -45,6 +45,11 @@ public class AppTest {
 	{
 		assertNotEquals(26, adder.multi(5, 5));
 	}
+	@Test
+	public void testDel()
+	{
+		assertNotEquals(25, minus.del(10, 5));
+	}
 	
 	
 
